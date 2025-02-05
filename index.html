@@ -1,17 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-      Play | Free Tailwind CSS Template for Startup and SaaS By TailGrids
+      Aldea Uno | La Plataforma Inteligente para la Gestión de tu Comunidad
     </title>
-    <link
-      rel="shortcut icon"
-      href="assets/images/favicon.png"
-      type="image/x-icon"
-    />
+   
+    <link rel="icon" type="image/png" href="assets/images/logo/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="assets/images/logo/favicon.svg" />
+<link rel="shortcut icon" href="assets/images/logo/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/logo/apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="AldeaOne" />
+<link rel="manifest" href="assets/images/logo/site.webmanifest" />
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/tailwind.css" />
@@ -21,6 +23,12 @@
     <script>
       new WOW().init();
     </script>
+
+    <!-- SuiteCRM Script -->
+
+<script type="text/javascript" src='https://crm.kbdreams.com/public/cache/include/javascript/sugar_grp1.js?v=3G4AFzdSJpuFkXuw53Lj8w'></script>
+
+<!-- End SuiteCRM Scrpt -->
   </head>
 
   <body>
@@ -30,7 +38,7 @@
     >
       <div class="container">
         <div class="relative -mx-4 flex items-center justify-between">
-          <div class="w-60 max-w-full px-4">
+          <div class="w-100 max-w-full px-4">
             <a href="index.html" class="navbar-logo block w-full py-5">
               <img
                 src="assets/images/logo/logo-white.svg"
@@ -55,7 +63,7 @@
                   class="relative my-[6px] block h-[2px] w-[30px] bg-white"
                 ></span>
               </button>
-              <nav
+              <!-- <nav
                 id="navbarCollapse"
                 class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6"
               >
@@ -182,10 +190,10 @@
                     </div>
                   </li>
                 </ul>
-              </nav>
+              </nav> -->
             </div>
-            <div class="flex items-center justify-end pr-16 lg:pr-0">
-              <label
+            <div class="flex items-center justify-end pr-16 lg:pr-0 ">
+              <!-- <label
                 for="themeSwitcher"
                 class="inline-flex cursor-pointer items-center"
                 aria-label="themeSwitcher"
@@ -256,19 +264,19 @@
                     </defs>
                   </svg>
                 </span>
-              </label>
-              <div class="hidden sm:flex">
-                <a
+              </label> -->
+              <div class="hidden ml-2 sm:flex">
+                <!-- <a
                   href="signin.html"
                   class="loginBtn px-[22px] py-2 text-base font-medium text-white hover:opacity-70"
                 >
                   Sign In
-                </a>
+                </a> -->
                 <a
-                  href="signup.html"
+                  href="contact.html"
                   class="signUpBtn rounded-md bg-white bg-opacity-20 px-6 py-2 text-base font-medium text-white duration-300 ease-in-out hover:bg-opacity-100 hover:text-dark"
                 >
-                  Sign Up
+                  Empieza Ahora
                 </a>
               </div>
             </div>
@@ -290,29 +298,44 @@
               class="hero-content wow fadeInUp mx-auto max-w-[780px] text-center"
               data-wow-delay=".2s"
             >
+            <div class="flex justify-center">
+              <svg width="441" height="74" viewBox="0 0 441 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M68 37C68 55.7777 52.7777 71 34 71C15.2223 71 0 55.7777 0 37C0 18.2223 15.2223 3 34 3C52.7777 3 68 18.2223 68 37Z" fill="#F06543"/>
+                <path d="M33.6777 47.071L44.2843 57.6776L33.6777 68.2842L23.0711 57.6776L33.6777 47.071Z" fill="white"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.92932 54.6418L33.5711 26L62.7421 55.171C60.9407 58.0145 58.7289 60.5723 56.1901 62.7612L33.5711 40.1421L11.3531 62.3602C8.85105 60.1243 6.68196 57.5236 4.92932 54.6418Z" fill="white"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.0161133 38.055L34.0711 4L67.9879 37.9168C67.8785 42.0518 67.0307 46.0028 65.5718 49.6428L34.0711 18.1421L2.46913 49.7441C1.00155 46.1166 0.141784 42.1782 0.0161133 38.055Z" fill="white"/>
+                <path d="M85.299 43.7548L78.9976 59H75.8131L94.2428 14.7551H96.0722L114.638 59H111.182L104.813 43.7548H85.299ZM94.9881 19.769C94.3106 21.8017 93.7008 23.4956 93.1587 24.8508L86.3831 41.1123H103.729L97.0208 24.9185C95.9819 22.3889 95.3043 20.6724 94.9881 19.769ZM123.56 59V15.0261H126.676V56.1542H146.868V59H123.56ZM170.208 56.6963C175.99 56.6963 180.62 55.1379 184.098 52.0211C187.621 48.9043 189.383 44.2065 189.383 37.9278C189.383 31.649 187.395 26.6576 183.42 22.9536C179.49 19.2496 174.635 17.3976 168.853 17.3976C164.742 17.3976 161.58 17.4879 159.367 17.6686V56.222C162.077 56.5382 165.691 56.6963 170.208 56.6963ZM168.853 14.6195C175.628 14.6195 181.275 16.72 185.792 20.9209C190.354 25.0766 192.635 30.7456 192.635 37.9278C192.635 45.1099 190.535 50.5079 186.334 54.1215C182.178 57.7352 176.803 59.5421 170.208 59.5421C165.646 59.5421 160.948 59.3162 156.114 58.8645V15.0261C159.728 14.7551 163.974 14.6195 168.853 14.6195ZM206.204 59V15.0261H226.734V17.7363H209.321V33.7269H225.04V36.3694H209.321V56.1542H227.412V59H206.204ZM242.052 43.7548L235.751 59H232.566L250.996 14.7551H252.825L271.39 59H267.935L261.566 43.7548H242.052ZM251.741 19.769C251.063 21.8017 250.454 23.4956 249.912 24.8508L243.136 41.1123H260.482L253.774 24.9185C252.735 22.3889 252.057 20.6724 251.741 19.769Z" fill="white"/>
+                <mask id="path-6-outside-1_508_61" maskUnits="userSpaceOnUse" x="285" y="12" width="153" height="50" fill="black">
+                <rect fill="white" x="285" y="12" width="153" height="50"/>
+                <path d="M319.434 54.4603C316.453 57.9385 311.913 59.6776 305.815 59.6776C299.717 59.6776 295.177 57.9385 292.196 54.4603C289.215 50.9822 287.724 46.1714 287.724 40.0282V15.0261H290.841V40.0282C290.841 51.2758 295.832 56.8996 305.815 56.8996C315.798 56.8996 320.789 51.2758 320.789 40.0282V15.0261H323.906V40.0282C323.906 46.1714 322.416 50.9822 319.434 54.4603ZM339.742 59V14.7551H341.233L370.097 47.9557C371.136 49.1301 372.085 50.3046 372.943 51.479C373.846 52.6083 374.32 53.1955 374.366 53.2407C374.275 52.1566 374.23 50.0336 374.23 46.8716V15.0261H377.347V59.271H375.856L346.45 25.5283L342.723 20.9886C342.814 21.8921 342.859 24.0151 342.859 27.3577V59H339.742ZM413.049 59.6776C406.771 59.6776 401.508 57.4868 397.262 53.1052C393.016 48.7236 390.893 43.3709 390.893 37.0469C390.893 30.6778 393.016 25.3025 397.262 20.9209C401.508 16.5393 406.771 14.3485 413.049 14.3485C419.328 14.3485 424.59 16.5393 428.837 20.9209C433.083 25.3025 435.206 30.6778 435.206 37.0469C435.206 43.3709 433.083 48.7236 428.837 53.1052C424.59 57.4868 419.328 59.6776 413.049 59.6776ZM413.049 17.1265C407.629 17.1265 403.112 19.0463 399.498 22.8858C395.929 26.7254 394.145 31.4457 394.145 37.0469C394.145 42.6029 395.929 47.3007 399.498 51.1403C403.112 54.9346 407.629 56.8318 413.049 56.8318C418.515 56.8318 423.032 54.9346 426.601 51.1403C430.169 47.3007 431.953 42.6029 431.953 37.0469C431.953 31.4457 430.169 26.7254 426.601 22.8858C423.032 19.0463 418.515 17.1265 413.049 17.1265Z"/>
+                </mask>
+                <path d="M319.434 54.4603L320.953 55.7619L320.953 55.7619L319.434 54.4603ZM292.196 54.4603L290.678 55.7619L290.678 55.7619L292.196 54.4603ZM287.724 15.0261V13.0261C286.62 13.0261 285.724 13.9215 285.724 15.0261H287.724ZM290.841 15.0261H292.841C292.841 13.9215 291.946 13.0261 290.841 13.0261V15.0261ZM320.789 15.0261V13.0261C319.685 13.0261 318.789 13.9215 318.789 15.0261H320.789ZM323.906 15.0261H325.906C325.906 13.9215 325.011 13.0261 323.906 13.0261V15.0261ZM317.916 53.1587C315.43 56.0586 311.534 57.6776 305.815 57.6776V61.6776C312.292 61.6776 317.476 59.8183 320.953 55.7619L317.916 53.1587ZM305.815 57.6776C300.096 57.6776 296.2 56.0586 293.715 53.1587L290.678 55.7619C294.155 59.8183 299.338 61.6776 305.815 61.6776V57.6776ZM293.715 53.1587C291.136 50.1508 289.724 45.8582 289.724 40.0282H285.724C285.724 46.4847 287.293 51.8135 290.678 55.7619L293.715 53.1587ZM289.724 40.0282V15.0261H285.724V40.0282H289.724ZM287.724 17.0261H290.841V13.0261H287.724V17.0261ZM288.841 15.0261V40.0282H292.841V15.0261H288.841ZM288.841 40.0282C288.841 45.9054 290.14 50.6869 293.089 54.0093C296.078 57.3772 300.45 58.8996 305.815 58.8996V54.8996C301.198 54.8996 298.083 53.61 296.08 51.3541C294.038 49.0528 292.841 45.3986 292.841 40.0282H288.841ZM305.815 58.8996C311.181 58.8996 315.552 57.3772 318.542 54.0093C321.49 50.6869 322.789 45.9054 322.789 40.0282H318.789C318.789 45.3986 317.593 49.0528 315.55 51.3541C313.548 53.61 310.432 54.8996 305.815 54.8996V58.8996ZM322.789 40.0282V15.0261H318.789V40.0282H322.789ZM320.789 17.0261H323.906V13.0261H320.789V17.0261ZM321.906 15.0261V40.0282H325.906V15.0261H321.906ZM321.906 40.0282C321.906 45.8582 320.494 50.1508 317.916 53.1587L320.953 55.7619C324.337 51.8135 325.906 46.4847 325.906 40.0282H321.906ZM339.742 59H337.742C337.742 60.1046 338.638 61 339.742 61V59ZM339.742 14.7551V12.7551C338.638 12.7551 337.742 13.6505 337.742 14.7551H339.742ZM341.233 14.7551L342.742 13.4428C342.362 13.0059 341.812 12.7551 341.233 12.7551V14.7551ZM370.097 47.9557L368.588 49.2679C368.591 49.2722 368.595 49.2766 368.599 49.2809L370.097 47.9557ZM372.943 51.479L371.328 52.6591C371.345 52.6826 371.363 52.7057 371.381 52.7284L372.943 51.479ZM374.366 53.2407L372.951 54.6549C373.545 55.2484 374.446 55.4082 375.207 55.0551C375.969 54.7019 376.428 53.911 376.359 53.0746L374.366 53.2407ZM374.23 15.0261V13.0261C373.126 13.0261 372.23 13.9215 372.23 15.0261H374.23ZM377.347 15.0261H379.347C379.347 13.9215 378.451 13.0261 377.347 13.0261V15.0261ZM377.347 59.271V61.271C378.451 61.271 379.347 60.3756 379.347 59.271H377.347ZM375.856 59.271L374.349 60.585C374.728 61.0209 375.278 61.271 375.856 61.271V59.271ZM346.45 25.5283L344.904 26.7973C344.917 26.8125 344.929 26.8275 344.942 26.8423L346.45 25.5283ZM342.723 20.9886L344.269 19.7197C343.71 19.0384 342.771 18.8035 341.957 19.1415C341.142 19.4795 340.646 20.3106 340.733 21.1877L342.723 20.9886ZM342.859 59V61C343.963 61 344.859 60.1046 344.859 59H342.859ZM341.742 59V14.7551H337.742V59H341.742ZM339.742 16.7551H341.233V12.7551H339.742V16.7551ZM339.723 16.0673L368.588 49.2679L371.606 46.6435L342.742 13.4428L339.723 16.0673ZM368.599 49.2809C369.6 50.4123 370.509 51.5385 371.328 52.6591L374.558 50.299C373.66 49.0707 372.672 47.848 371.595 46.6306L368.599 49.2809ZM371.381 52.7284C371.833 53.2937 372.18 53.7258 372.42 54.0231C372.54 54.1713 372.636 54.2892 372.706 54.3747C372.73 54.4036 372.851 54.5548 372.951 54.6549L375.78 51.8265C375.847 51.8934 375.894 51.9519 375.857 51.9086C375.846 51.8959 375.827 51.8726 375.797 51.8357C375.737 51.7631 375.649 51.6552 375.532 51.5097C375.298 51.2198 374.956 50.7936 374.504 50.2296L371.381 52.7284ZM376.359 53.0746C376.276 52.0866 376.23 50.0455 376.23 46.8716H372.23C372.23 50.0216 372.274 52.2266 372.373 53.4068L376.359 53.0746ZM376.23 46.8716V15.0261H372.23V46.8716H376.23ZM374.23 17.0261H377.347V13.0261H374.23V17.0261ZM375.347 15.0261V59.271H379.347V15.0261H375.347ZM377.347 57.271H375.856V61.271H377.347V57.271ZM377.364 57.957L347.958 24.2143L344.942 26.8423L374.349 60.585L377.364 57.957ZM347.996 24.2593L344.269 19.7197L341.178 22.2576L344.904 26.7973L347.996 24.2593ZM340.733 21.1877C340.812 21.9708 340.859 23.9835 340.859 27.3577H344.859C344.859 24.0467 344.816 21.8133 344.713 20.7896L340.733 21.1877ZM340.859 27.3577V59H344.859V27.3577H340.859ZM342.859 57H339.742V61H342.859V57ZM397.262 53.1052L398.698 51.7134L397.262 53.1052ZM397.262 20.9209L398.698 22.3127L398.698 22.3127L397.262 20.9209ZM428.837 20.9209L430.273 19.5291L430.273 19.5291L428.837 20.9209ZM428.837 53.1052L430.273 54.497L430.273 54.497L428.837 53.1052ZM399.498 22.8858L398.042 21.5151L398.033 21.5243L399.498 22.8858ZM399.498 51.1403L398.033 52.5018C398.039 52.5078 398.044 52.5137 398.05 52.5196L399.498 51.1403ZM426.601 51.1403L428.057 52.5105L428.066 52.5018L426.601 51.1403ZM426.601 22.8858L428.066 21.5243L428.066 21.5243L426.601 22.8858ZM413.049 57.6776C407.294 57.6776 402.555 55.6937 398.698 51.7134L395.826 54.497C400.461 59.2799 406.247 61.6776 413.049 61.6776V57.6776ZM398.698 51.7134C394.828 47.7197 392.893 42.8723 392.893 37.0469H388.893C388.893 43.8694 391.204 49.7275 395.826 54.497L398.698 51.7134ZM392.893 37.0469C392.893 31.1721 394.831 26.3034 398.698 22.3127L395.826 19.5291C391.201 24.3015 388.893 30.1835 388.893 37.0469H392.893ZM398.698 22.3127C402.555 18.3324 407.294 16.3485 413.049 16.3485V12.3485C406.247 12.3485 400.461 14.7462 395.826 19.5291L398.698 22.3127ZM413.049 16.3485C418.804 16.3485 423.543 18.3324 427.4 22.3127L430.273 19.5291C425.638 14.7462 419.852 12.3485 413.049 12.3485V16.3485ZM427.4 22.3127C431.268 26.3034 433.206 31.1721 433.206 37.0469H437.206C437.206 30.1835 434.898 24.3015 430.273 19.5291L427.4 22.3127ZM433.206 37.0469C433.206 42.8723 431.27 47.7197 427.4 51.7134L430.273 54.497C434.895 49.7275 437.206 43.8694 437.206 37.0469H433.206ZM427.4 51.7134C423.543 55.6937 418.804 57.6776 413.049 57.6776V61.6776C419.852 61.6776 425.638 59.2799 430.273 54.497L427.4 51.7134ZM413.049 15.1265C407.095 15.1265 402.045 17.2614 398.042 21.5151L400.954 24.2566C404.178 20.8311 408.163 19.1265 413.049 19.1265V15.1265ZM398.033 21.5243C394.096 25.7607 392.145 30.9785 392.145 37.0469H396.145C396.145 31.9129 397.763 27.69 400.963 24.2474L398.033 21.5243ZM392.145 37.0469C392.145 43.0748 394.099 48.2686 398.033 52.5018L400.963 49.7787C397.76 46.3328 396.145 42.1311 396.145 37.0469H392.145ZM398.05 52.5196C402.055 56.7254 407.103 58.8318 413.049 58.8318V54.8318C408.155 54.8318 404.168 53.1438 400.946 49.7609L398.05 52.5196ZM413.049 58.8318C419.036 58.8318 424.091 56.7285 428.057 52.5104L425.144 49.7701C421.974 53.1408 417.994 54.8318 413.049 54.8318V58.8318ZM428.066 52.5018C432 48.2686 433.953 43.0748 433.953 37.0469H429.953C429.953 42.1311 428.338 46.3328 425.136 49.7787L428.066 52.5018ZM433.953 37.0469C433.953 30.9785 432.003 25.7607 428.066 21.5243L425.136 24.2474C428.335 27.69 429.953 31.9129 429.953 37.0469H433.953ZM428.066 21.5243C424.101 17.2584 419.044 15.1265 413.049 15.1265V19.1265C417.986 19.1265 421.963 20.8342 425.136 24.2474L428.066 21.5243Z" fill="white" mask="url(#path-6-outside-1_508_61)"/>
+                </svg>
+                
+              </div>
               <h1
                 class="mb-6 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug lg:text-5xl lg:leading-[1.2]"
               >
-                Open-Source Web Template for SaaS, Startup, Apps, and More
+             
+              La Plataforma Inteligente para la Gestión de tu Comunidad
               </h1>
               <p
                 class="mx-auto mb-9 max-w-[600px] text-base font-medium text-white sm:text-lg sm:leading-[1.44]"
               >
-                Multidisciplinary Web Template Built with Your Favourite
-                Technology - HTML Bootstrap, Tailwind and React NextJS.
+              Administra tu residencial con facilidad, transparencia y control total.
               </p>
               <ul
-                class="mb-10 flex flex-wrap items-center justify-center gap-5"
+                class="sm:mb-10 flex flex-wrap items-center justify-center gap-5"
               >
                 <li>
                   <a
                     href="https://links.tailgrids.com/play-download"
                     class="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2 hover:text-body-color"
                   >
-                    Download Now
+                    Únete a Nuestra Lista de Espera
                   </a>
                 </li>
-                <li>
+                <!-- <li>
                   <a
                     href="https://github.com/tailgrids/play-tailwind"
                     target="_blank"
@@ -339,9 +362,9 @@
                     </svg>
                     Star on Github
                   </a>
-                </li>
+                </li> -->
               </ul>
-              <div>
+              <!-- <div>
                 <p class="mb-4 text-center text-base font-medium text-white">
                   Built with latest technology
                 </p>
@@ -493,7 +516,7 @@
                     </svg>
                   </a>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
 
@@ -1661,18 +1684,18 @@
       <div class="container">
         <div class="-mx-4 flex flex-wrap">
           <div class="w-full px-4">
-            <div class="mx-auto mb-12 max-w-[485px] text-center lg:mb-[70px]">
+            <div class="mx-auto mb-12 max-w-[685px] text-center lg:mb-[70px]">
               <span class="mb-2 block text-lg font-semibold text-primary">
-                Features
+                Funcionalidades
               </span>
               <h2
                 class="mb-3 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[40px] md:leading-[1.2]"
               >
-                Main Features Of Play
+              Reduce costos, mejora la comunicación y gestiona pagos desde un solo lugar.
               </h2>
               <p class="text-base text-body-color dark:text-dark-6">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+                Simplifica la administración de tu residencial con nuestra
+                plataforma intuitiva y segura.
               </p>
             </div>
           </div>
@@ -1686,7 +1709,7 @@
                 <span
                   class="absolute left-0 top-0 -z-[1] mb-8 flex h-[70px] w-[70px] rotate-[25deg] items-center justify-center rounded-[14px] bg-primary bg-opacity-20 duration-300 group-hover:rotate-45"
                 ></span>
-                <svg
+                <!-- <svg
                   width="37"
                   height="37"
                   viewBox="0 0 37 37"
@@ -1697,20 +1720,22 @@
                     d="M30.5801 8.30514H27.9926C28.6113 7.85514 29.1176 7.34889 29.3426 6.73014C29.6801 5.88639 29.6801 4.48014 27.9363 2.84889C26.0801 1.04889 24.3926 1.04889 23.3238 1.33014C20.9051 1.94889 19.2738 4.76139 18.3738 6.78639C17.4738 4.76139 15.8426 2.00514 13.4238 1.33014C12.3551 1.04889 10.6676 1.10514 8.81133 2.84889C7.06758 4.53639 7.12383 5.88639 7.40508 6.73014C7.63008 7.34889 8.13633 7.85514 8.75508 8.30514H5.71758C4.08633 8.30514 2.73633 9.65514 2.73633 11.2864V14.9989C2.73633 16.5739 4.03008 17.8676 5.60508 17.9239V31.6489C5.60508 33.5614 7.18008 35.1926 9.14883 35.1926H27.5426C29.4551 35.1926 31.0863 33.6176 31.0863 31.6489V17.8676C32.4926 17.6426 33.5613 16.4051 33.5613 14.9426V11.2301C33.5613 9.59889 32.2113 8.30514 30.5801 8.30514ZM23.9426 3.69264C23.9988 3.69264 24.1676 3.63639 24.3363 3.63639C24.7301 3.63639 25.3488 3.80514 26.1926 4.59264C26.8676 5.21139 27.0363 5.66139 26.9801 5.77389C26.6988 6.56139 23.8863 7.40514 20.6801 7.74264C21.4676 5.99889 22.6488 4.03014 23.9426 3.69264ZM10.4988 4.64889C11.3426 3.86139 11.9613 3.69264 12.3551 3.69264C12.5238 3.69264 12.6363 3.74889 12.7488 3.74889C14.0426 4.08639 15.2801 5.99889 16.0676 7.79889C12.8613 7.46139 10.0488 6.61764 9.76758 5.83014C9.71133 5.66139 9.88008 5.26764 10.4988 4.64889ZM5.26758 14.9426V11.2301C5.26758 11.0051 5.43633 10.7801 5.71758 10.7801H30.5801C30.8051 10.7801 31.0301 10.9489 31.0301 11.2301V14.9426C31.0301 15.1676 30.8613 15.3926 30.5801 15.3926H5.71758C5.49258 15.3926 5.26758 15.2239 5.26758 14.9426ZM27.5426 32.6614H9.14883C8.58633 32.6614 8.13633 32.2114 8.13633 31.6489V17.9239H28.4988V31.6489C28.5551 32.2114 28.1051 32.6614 27.5426 32.6614Z"
                     fill="white"
                   />
-                </svg>
+                </svg> -->
+             <svg width="37" height="37" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#fff"><path d="M12.5019 9.13013L14.5506 9.66126C14.8152 9.72987 15.0015 9.9695 14.9924 10.2427C14.8262 15.232 12 16 12 16C12 16 9.17375 15.232 9.00762 10.2427C8.99852 9.9695 9.18479 9.72987 9.44942 9.66126L11.4981 9.13013C11.8273 9.04479 12.1727 9.04479 12.5019 9.13013Z" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 8L11.7317 3.13416C11.9006 3.04971 12.0994 3.0497 12.2683 3.13416L22 8" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M20 11V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V11" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
               </div>
               <h4 class="mb-3 text-xl font-bold text-dark dark:text-white">
-                Free and Open-Source
+                Gestión de Propiedades y Residentes
               </h4>
               <p class="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
-                Lorem Ipsum is simply dummy text of the printing and industry.
+                Administra fácilmente residentes, propietarios e inquilinos con
+                acceso basado en roles.
               </p>
-              <a
+              <!-- <a
                 href="javascript:void(0)"
                 class="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary"
               >
-                Learn More
-              </a>
+                Ver más
+              </a> -->
             </div>
           </div>
           <div class="w-full px-4 md:w-1/2 lg:w-1/4">
@@ -1721,7 +1746,7 @@
                 <span
                   class="absolute left-0 top-0 -z-[1] mb-8 flex h-[70px] w-[70px] rotate-[25deg] items-center justify-center rounded-[14px] bg-primary bg-opacity-20 duration-300 group-hover:rotate-45"
                 ></span>
-                <svg
+                <!-- <svg
                   width="36"
                   height="36"
                   viewBox="0 0 36 36"
@@ -1732,20 +1757,22 @@
                     d="M30.5998 1.01245H5.39981C2.98105 1.01245 0.956055 2.9812 0.956055 5.4562V30.6562C0.956055 33.075 2.9248 35.0437 5.39981 35.0437H30.5998C33.0186 35.0437 34.9873 33.075 34.9873 30.6562V5.39995C34.9873 2.9812 33.0186 1.01245 30.5998 1.01245ZM5.39981 3.48745H30.5998C31.6123 3.48745 32.4561 4.3312 32.4561 5.39995V11.1937H3.4873V5.39995C3.4873 4.38745 4.38731 3.48745 5.39981 3.48745ZM3.4873 30.6V13.725H23.0623V32.5125H5.39981C4.38731 32.5125 3.4873 31.6125 3.4873 30.6ZM30.5998 32.5125H25.5373V13.725H32.4561V30.6C32.5123 31.6125 31.6123 32.5125 30.5998 32.5125Z"
                     fill="white"
                   />
-                </svg>
+                </svg> -->
+                <?xml version="1.0" encoding="UTF-8"?><svg width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M2 11L4.80662 7.84255C5.5657 6.98859 6.65372 6.5 7.79627 6.5L8 6.5" stroke="#ffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 19.5003L7.5 19.5L11.5 16.5003C11.5 16.5003 12.3091 15.9528 13.5 15.0001C16 13.0002 13.5 9.83352 11 11.4997C8.96409 12.8565 7 14.0003 7 14.0003" stroke="#ffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8 13.5V7C8 5.89543 8.89543 5 10 5H20C21.1046 5 22 5.89543 22 7V13C22 14.1046 21.1046 15 20 15H13.5" stroke="#ffff" stroke-width="1.5"></path><path d="M15 12C13.8954 12 13 11.1046 13 10C13 8.89543 13.8954 8 15 8C16.1046 8 17 8.89543 17 10C17 11.1046 16.1046 12 15 12Z" stroke="#ffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M19.5 10.01L19.51 9.99889" stroke="#ffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.5 10.01L10.51 9.99889" stroke="#ffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
               </div>
               <h4 class="mb-3 text-xl font-bold text-dark dark:text-white">
-                Multipurpose Template
+                Cuotas y Finanzas
               </h4>
               <p class="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
-                Lorem Ipsum is simply dummy text of the printing and industry.
+                Lleva el control de las cuotas y genera estados de cuenta de
+                manera automática.
               </p>
-              <a
+              <!-- <a
                 href="javascript:void(0)"
                 class="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary"
               >
-                Learn More
-              </a>
+                Ver más
+              </a> -->
             </div>
           </div>
           <div class="w-full px-4 md:w-1/2 lg:w-1/4">
@@ -1756,7 +1783,7 @@
                 <span
                   class="absolute left-0 top-0 -z-[1] mb-8 flex h-[70px] w-[70px] rotate-[25deg] items-center justify-center rounded-[14px] bg-primary bg-opacity-20 duration-300 group-hover:rotate-45"
                 ></span>
-                <svg
+                <!-- <svg
                   width="37"
                   height="37"
                   viewBox="0 0 37 37"
@@ -1799,20 +1826,22 @@
                     d="M24.1675 20.624C24.3925 20.624 24.6175 20.5677 24.8425 20.4552L28.555 18.0927C29.1738 17.699 29.3425 16.9115 28.9488 16.349C28.555 15.7302 27.7675 15.5615 27.205 15.9552L23.4925 18.3177C22.8738 18.7115 22.705 19.499 23.0988 20.0615C23.3238 20.4552 23.7175 20.624 24.1675 20.624Z"
                     fill="white"
                   />
-                </svg>
+                </svg> -->
+              <svg width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffff"><path d="M9 9L13.5 12L18 9" stroke="#ffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 13.5H5" stroke="#ffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M1 10.5H5" stroke="#ffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M5 7.5V7C5 5.89543 5.89543 5 7 5H20C21.1046 5 22 5.89543 22 7V17C22 18.1046 21.1046 19 20 19H7C5.89543 19 5 18.1046 5 17V16.5" stroke="#ffff" stroke-width="1.5" stroke-linecap="round"></path></svg>
               </div>
               <h4 class="mb-3 text-xl font-bold text-dark dark:text-white">
-                High-quality Design
+                Comunicación y Notificaciones
               </h4>
               <p class="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
-                Lorem Ipsum is simply dummy text of the printing and industry.
+                Mantente conectado con los residentes a través de correos
+                electrónicos y alertas en tiempo real.
               </p>
-              <a
+              <!-- <a
                 href="javascript:void(0)"
                 class="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary"
               >
-                Learn More
-              </a>
+                Ver más
+              </a> -->
             </div>
           </div>
           <div class="w-full px-4 md:w-1/2 lg:w-1/4">
@@ -1823,43 +1852,21 @@
                 <span
                   class="absolute left-0 top-0 -z-[1] mb-8 flex h-[70px] w-[70px] rotate-[25deg] items-center justify-center rounded-[14px] bg-primary bg-opacity-20 duration-300 group-hover:rotate-45"
                 ></span>
-                <svg
-                  width="37"
-                  height="37"
-                  viewBox="0 0 37 37"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M12.355 2.0614H5.21129C3.29879 2.0614 1.72379 3.6364 1.72379 5.5489V12.6927C1.72379 14.6052 3.29879 16.1802 5.21129 16.1802H12.355C14.2675 16.1802 15.8425 14.6052 15.8425 12.6927V5.60515C15.8988 3.6364 14.3238 2.0614 12.355 2.0614ZM13.3675 12.7489C13.3675 13.3114 12.9175 13.7614 12.355 13.7614H5.21129C4.64879 13.7614 4.19879 13.3114 4.19879 12.7489V5.60515C4.19879 5.04265 4.64879 4.59265 5.21129 4.59265H12.355C12.9175 4.59265 13.3675 5.04265 13.3675 5.60515V12.7489Z"
-                    fill="white"
-                  />
-                  <path
-                    d="M31.0863 2.0614H23.9425C22.03 2.0614 20.455 3.6364 20.455 5.5489V12.6927C20.455 14.6052 22.03 16.1802 23.9425 16.1802H31.0863C32.9988 16.1802 34.5738 14.6052 34.5738 12.6927V5.60515C34.5738 3.6364 32.9988 2.0614 31.0863 2.0614ZM32.0988 12.7489C32.0988 13.3114 31.6488 13.7614 31.0863 13.7614H23.9425C23.38 13.7614 22.93 13.3114 22.93 12.7489V5.60515C22.93 5.04265 23.38 4.59265 23.9425 4.59265H31.0863C31.6488 4.59265 32.0988 5.04265 32.0988 5.60515V12.7489Z"
-                    fill="white"
-                  />
-                  <path
-                    d="M12.355 20.0051H5.21129C3.29879 20.0051 1.72379 21.5801 1.72379 23.4926V30.6364C1.72379 32.5489 3.29879 34.1239 5.21129 34.1239H12.355C14.2675 34.1239 15.8425 32.5489 15.8425 30.6364V23.5489C15.8988 21.5801 14.3238 20.0051 12.355 20.0051ZM13.3675 30.6926C13.3675 31.2551 12.9175 31.7051 12.355 31.7051H5.21129C4.64879 31.7051 4.19879 31.2551 4.19879 30.6926V23.5489C4.19879 22.9864 4.64879 22.5364 5.21129 22.5364H12.355C12.9175 22.5364 13.3675 22.9864 13.3675 23.5489V30.6926Z"
-                    fill="white"
-                  />
-                  <path
-                    d="M31.0863 20.0051H23.9425C22.03 20.0051 20.455 21.5801 20.455 23.4926V30.6364C20.455 32.5489 22.03 34.1239 23.9425 34.1239H31.0863C32.9988 34.1239 34.5738 32.5489 34.5738 30.6364V23.5489C34.5738 21.5801 32.9988 20.0051 31.0863 20.0051ZM32.0988 30.6926C32.0988 31.2551 31.6488 31.7051 31.0863 31.7051H23.9425C23.38 31.7051 22.93 31.2551 22.93 30.6926V23.5489C22.93 22.9864 23.38 22.5364 23.9425 22.5364H31.0863C31.6488 22.5364 32.0988 22.9864 32.0988 23.5489V30.6926Z"
-                    fill="white"
-                  />
-                </svg>
+                <?xml version="1.0" encoding="UTF-8"?><svg width="36" height="36" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#ffff"><path d="M9 21H15M9 21V16M9 21H3.6C3.26863 21 3 20.7314 3 20.4V16.6C3 16.2686 3.26863 16 3.6 16H9M15 21V9M15 21H20.4C20.7314 21 21 20.7314 21 20.4V3.6C21 3.26863 20.7314 3 20.4 3H15.6C15.2686 3 15 3.26863 15 3.6V9M15 9H9.6C9.26863 9 9 9.26863 9 9.6V16" stroke="#ffff" stroke-width="1.5"></path></svg>
               </div>
               <h4 class="mb-3 text-xl font-bold text-dark dark:text-white">
-                All Essential Elements
+                Reportes y Análisis
               </h4>
               <p class="mb-8 text-body-color dark:text-dark-6 lg:mb-9">
-                Lorem Ipsum is simply dummy text of the printing and industry.
+                Obtén métricas clave y reportes financieros para una
+                administración eficiente.
               </p>
-              <a
+              <!-- <a
                 href="javascript:void(0)"
                 class="text-base font-medium text-dark hover:text-primary dark:text-white dark:hover:text-primary"
               >
-                Learn More
-              </a>
+                Ver más
+              </a> -->
             </div>
           </div>
         </div>
@@ -1880,27 +1887,44 @@
                 <h2
                   class="mb-5 text-3xl font-bold leading-tight text-dark dark:text-white sm:text-[40px] sm:leading-[1.2]"
                 >
-                  Brilliant Toolkit to Build Nextgen Website Faster.
+                  ¿Por Qué Aldea Uno?
                 </h2>
+                <p
+                  class="mb-4 text-base leading-relaxed text-body-color dark:text-dark-6"
+                >
+                  <span class="font-bold text-primary"> 🚀 Fácil de usar:</span>
+                  Interfaz intuitiva, sin necesidad de capacitación técnica.
+                </p>
+                <p
+                  class="mb-4 text-base leading-relaxed text-body-color dark:text-dark-6"
+                >
+                  <span class="font-bold text-primary"
+                    >🔒 Segura y confiable:</span
+                  >
+                  Tus datos están protegidos con tecnología de última
+                  generación.
+                </p>
+                <p
+                  class="mb-4 text-base leading-relaxed text-body-color dark:text-dark-6"
+                >
+                  <span class="font-bold text-primary"
+                    >⚡ Automatización total:</span
+                  >
+                  Reduce el trabajo manual y gana tiempo.
+                </p>
                 <p
                   class="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6"
                 >
-                  The main ‘thrust' is to focus on educating attendees on how to
-                  best protect highly vulnerable business applications with
-                  interactive panel discussions and roundtables led by subject
-                  matter experts.
-                  <br />
-                  <br />
-                  The main ‘thrust' is to focus on educating attendees on how to
-                  best protect highly vulnerable business applications with
-                  interactive panel.
+                  <span class="font-bold text-primary"
+                    >📱 100% en la nube:</span
+                  >
+                  Accede desde cualquier lugar y dispositivo.
                 </p>
-
                 <a
-                  href="javascript:void(0)"
+                href="contact.html"
                   class="inline-flex items-center justify-center rounded-md border border-primary bg-primary px-7 py-3 text-center text-base font-medium text-white hover:border-blue-dark hover:bg-blue-dark"
                 >
-                  Know More
+                  Empieza ahora
                 </a>
               </div>
             </div>
@@ -1912,7 +1936,7 @@
                     class="mb-4 sm:mb-8 sm:h-[400px] md:h-[540px] lg:h-[400px] xl:h-[500px]"
                   >
                     <img
-                      src="./assets/images/about/about-image-01.jpg"
+                      src="./assets/images/about/about-image-01.png"
                       alt="about image"
                       class="h-full w-full object-cover object-center"
                     />
@@ -1924,7 +1948,7 @@
                     class="mb-4 sm:mb-8 sm:h-[220px] md:h-[346px] lg:mb-4 lg:h-[225px] xl:mb-8 xl:h-[310px]"
                   >
                     <img
-                      src="./assets/images/about/about-image-02.jpg"
+                      src="./assets/images/about/about-image-02.png"
                       alt="about image"
                       class="h-full w-full object-cover object-center"
                     />
@@ -1935,15 +1959,15 @@
                   >
                     <div>
                       <span class="block text-5xl font-extrabold text-white">
-                        09
+                        10+
                       </span>
                       <span class="block text-base font-semibold text-white">
-                        We have
+                        años de experiencia
                       </span>
                       <span
                         class="block text-base font-medium text-white text-opacity-70"
                       >
-                        Years of experience
+                        desarrollando software
                       </span>
                     </div>
                     <div>
@@ -2078,22 +2102,22 @@
                 <h2
                   class="mb-2.5 text-3xl font-bold text-white md:text-[38px] md:leading-[1.44]"
                 >
-                  <span>What Are You Looking For?</span>
+                  <span>¿Qué estás esperando?</span>
                   <span class="text-3xl font-normal md:text-[40px]">
-                    Get Started Now
+                    Únete a Aldea Uno Hoy
                   </span>
                 </h2>
                 <p
                   class="mx-auto mb-6 max-w-[515px] text-base leading-[1.5] text-white"
                 >
-                  There are many variations of passages of Lorem Ipsum but the
-                  majority have suffered in some form.
+                  Moderniza la administración de tu comunidad con una plataforma
+                  hecha a tu medida.
                 </p>
                 <a
-                  href="javascript:void(0)"
-                  class="inline-block rounded-md border border-transparent bg-secondary px-7 py-3 text-base font-medium text-white transition hover:bg-[#0BB489]"
+                href="contact.html"
+                  class="inline-block rounded-md border bg-secondary px-7 py-3 text-xl font-medium text-white transition hover:bg-[#0BB489]"
                 >
-                  Start using Play
+                  Empieza ahora
                 </a>
               </div>
             </div>
@@ -2169,7 +2193,7 @@
     <!-- ====== CTA Section End -->
 
     <!-- ====== Pricing Section Start -->
-    <section
+    <!-- <section
       id="pricing"
       class="relative z-20 overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]"
     >
@@ -2341,11 +2365,11 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ====== Pricing Section End -->
 
     <!-- ====== Testimonial Section Start -->
-    <section
+    <!-- <section
       id="testimonials"
       class="overflow-hidden bg-gray-1 py-20 dark:bg-dark-2 md:py-[120px]"
     >
@@ -2733,7 +2757,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ====== Testimonial Section End -->
 
     <!-- ====== FAQ Section Start -->
@@ -2745,19 +2769,19 @@
           <div class="w-full px-4">
             <div class="mx-auto mb-[60px] max-w-[520px] text-center">
               <span class="mb-2 block text-lg font-semibold text-primary">
-                FAQ
+                Preguntas Frecuentes (FAQ)
               </span>
               <h2
                 class="mb-3 text-3xl font-bold leading-[1.2] text-dark dark:text-white sm:text-4xl md:text-[40px]"
               >
-                Any Questions? Look Here
+                ¿Tienes dudas? ¡Nosotros te ayudamos!
               </h2>
-              <p
+              <!-- <p
                 class="mx-auto max-w-[485px] text-base text-body-color dark:text-dark-6"
               >
                 There are many variations of passages of Lorem Ipsum available
                 but the majority have suffered alteration in some form.
-              </p>
+              </p> -->
             </div>
           </div>
         </div>
@@ -2788,13 +2812,12 @@
                 <h3
                   class="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
                 >
-                  Is TailGrids Well-documented?
+                  ¿Cuánto cuesta Aldea Uno?
                 </h3>
                 <p class="text-base text-body-color dark:text-dark-6">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content ui/ux strategy that we do writing your first blog
-                  post.
+                  Aldea Uno ofrece diferentes planes según las necesidades de cada
+                  comunidad. Puedes comenzar con una prueba gratuita de 30 días
+                  y luego elegir un plan que se ajuste a tus necesidades.
                 </p>
               </div>
             </div>
@@ -2823,13 +2846,13 @@
                 <h3
                   class="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
                 >
-                  Is TailGrids Well-documented?
+                  ¿Es seguro usar Aldea Uno?
                 </h3>
                 <p class="text-base text-body-color dark:text-dark-6">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content ui/ux strategy that we do writing your first blog
-                  post.
+                  Sí. Aldea Uno utiliza tecnología de encriptación avanzada y
+                  servidores seguros para proteger toda la información de tu
+                  comunidad. Solo los administradores autorizados pueden acceder
+                  a datos sensibles.
                 </p>
               </div>
             </div>
@@ -2860,13 +2883,13 @@
                 <h3
                   class="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
                 >
-                  Is TailGrids Well-documented?
+                  ¿Necesito conocimientos técnicos para usar Aldea Uno?
                 </h3>
                 <p class="text-base text-body-color dark:text-dark-6">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content ui/ux strategy that we do writing your first blog
-                  post.
+                  No. Aldea Uno está diseñada para ser <strong> fácil </strong>de
+                  usar, incluso para quienes no tienen experiencia en
+                  tecnología. Además, ofrecemos capacitación y soporte para
+                  garantizar una transición sin problemas.
                 </p>
               </div>
             </div>
@@ -2895,13 +2918,12 @@
                 <h3
                   class="mb-6 text-xl font-semibold text-dark dark:text-white sm:text-2xl lg:text-xl xl:text-2xl"
                 >
-                  Is TailGrids Well-documented?
+                  ¿Puedo acceder a Aldea Uno desde cualquier dispositivo?
                 </h3>
                 <p class="text-base text-body-color dark:text-dark-6">
-                  It takes 2-3 weeks to get your first blog post ready. That
-                  includes the in-depth research & creation of your monthly
-                  content ui/ux strategy that we do writing your first blog
-                  post.
+                  Sí. Aldea Uno es una plataforma en la nube, por lo que puedes
+                  acceder desde tu computadora, tablet o smartphone en cualquier
+                  momento y lugar.
                 </p>
               </div>
             </div>
@@ -3494,7 +3516,7 @@
     <!-- ====== FAQ Section End -->
 
     <!-- ====== Team Section Start -->
-    <section
+    <!-- <section
       id="team"
       class="overflow-hidden bg-gray-1 pb-12 pt-20 dark:bg-dark-2 lg:pb-[90px] lg:pt-[120px]"
     >
@@ -4444,11 +4466,11 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ====== Team Section End -->
 
     <!-- ====== Blog Section Start -->
-    <section class="bg-white pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
+    <!-- <section class="bg-white pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
       <div class="container mx-auto">
         <div class="-mx-4 flex flex-wrap justify-center">
           <div class="w-full px-4">
@@ -4573,7 +4595,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ====== Blog Section End -->
 
     <!-- ====== Contact Start ====== -->
@@ -4589,16 +4611,22 @@
           <div class="w-full px-4 lg:w-7/12 xl:w-8/12">
             <div class="ud-contact-content-wrapper">
               <div class="ud-contact-title mb-12 lg:mb-[150px]">
-                <span
+                <!-- <span
                   class="mb-6 block text-base font-medium text-dark dark:text-white"
                 >
-                  CONTACT US
-                </span>
+                  CONTACTO
+                </span> -->
                 <h2
-                  class="max-w-[260px] text-[35px] font-semibold leading-[1.14] text-dark dark:text-white"
+                  class="max-w-[460px] text-[35px] font-semibold leading-[1.14] text-dark dark:text-white mb-9"
                 >
-                  Let's talk about your problem.
+                ¿Listo para modernizar la administración de tu Comunidad?
                 </h2>
+                <p class="text-dark dark:text-white mb-9">
+                  Aldea Uno está revolucionando la forma en que las comunidades privadas y condominios gestionan sus operaciones. Únete a nuestra lista de espera y sé de los primeros en acceder a esta plataforma inteligente y eficiente.
+                  </p>
+                  <p class="text-dark dark:text-white pb-10">
+                    ¿Tienes preguntas o quieres saber más? ¡Estamos aquí para ayudarte! Contáctanos y descubre cómo Aldea Uno puede hacer que la administración de tu residencial sea más sencilla, transparente y segura.
+                </p>
               </div>
               <div class="mb-12 flex flex-wrap justify-between lg:mb-0">
                 <div class="mb-8 flex w-[330px] max-w-full">
@@ -4621,10 +4649,10 @@
                     <h5
                       class="mb-[18px] text-lg font-semibold text-dark dark:text-white"
                     >
-                      Our Location
+                      Ubicación
                     </h5>
                     <p class="text-base text-body-color dark:text-dark-6">
-                      401 Broadway, 24th Floor, Orchard Cloud View, London
+                      Estamos enfocados en el mercado de Mexicano
                     </p>
                   </div>
                 </div>
@@ -4645,14 +4673,14 @@
                     <h5
                       class="mb-[18px] text-lg font-semibold text-dark dark:text-white"
                     >
-                      How Can We Help?
+                      ¿Tienes más preguntas?
                     </h5>
                     <p class="text-base text-body-color dark:text-dark-6">
-                      info@yourdomain.com
+                      info@aldeauno.com
                     </p>
-                    <p class="mt-1 text-base text-body-color dark:text-dark-6">
+                    <!-- <p class="mt-1 text-base text-body-color dark:text-dark-6">
                       contact@yourdomain.com
-                    </p>
+                    </p> -->
                   </div>
                 </div>
               </div>
@@ -4667,32 +4695,32 @@
               <h3
                 class="mb-8 text-2xl font-semibold text-dark dark:text-white md:text-[28px] md:leading-[1.42]"
               >
-                Send us a Message
+                Incribeté a nuestra Lista de Espera
               </h3>
-              <form>
+              <form id="WebToLeadForm" action="https://crm.kbdreams.com/public/index.php?entryPoint=WebToPersonCapture" method="POST" name="WebToLeadForm">
                 <div class="mb-[22px]">
                   <label
-                    for="fullName"
+                    for="last_name"
                     class="mb-4 block text-sm text-body-color dark:text-dark-6"
-                    >Full Name*</label
+                    >Nombre completo*</label
                   >
                   <input
                     type="text"
-                    name="fullName"
-                    placeholder="Adam Gelius"
+                    name="last_name" id="last_name"
+                    placeholder="Jorge García"
                     class="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"
                   />
                 </div>
                 <div class="mb-[22px]">
                   <label
-                    for="email"
+                    for="email1"
                     class="mb-4 block text-sm text-body-color dark:text-dark-6"
                     >Email*</label
                   >
                   <input
                     type="email"
-                    name="email"
-                    placeholder="example@yourmail.com"
+                    name="email1" id="email1"
+                    placeholder="jorge@tucorreo.com"
                     class="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"
                   />
                 </div>
@@ -4700,25 +4728,25 @@
                   <label
                     for="phone"
                     class="mb-4 block text-sm text-body-color dark:text-dark-6"
-                    >Phone*</label
+                    >Teléfono*</label
                   >
                   <input
                     type="text"
-                    name="phone"
-                    placeholder="+885 1254 5211 552"
+                    name="phone_mobile" id="phone_mobile"
+                    placeholder="+52 56 8523-4596"
                     class="w-full border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"
                   />
                 </div>
                 <div class="mb-[30px]">
                   <label
-                    for="message"
+                    for="description"
                     class="mb-4 block text-sm text-body-color dark:text-dark-6"
-                    >Message*</label
+                    >¿Algo que nos quieras decir?*</label
                   >
                   <textarea
-                    name="message"
+                  name="description" id="description"
                     rows="1"
-                    placeholder="type your message here"
+                    placeholder="tu mensaje aquí"
                     class="w-full resize-none border-0 border-b border-[#f1f1f1] bg-transparent pb-3 text-body-color placeholder:text-body-color/60 focus:border-primary focus:outline-none dark:border-dark-3 dark:text-dark-6"
                   ></textarea>
                 </div>
@@ -4726,11 +4754,52 @@
                   <button
                     type="submit"
                     class="inline-flex items-center justify-center rounded-md bg-primary px-10 py-3 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-blue-dark"
+                    onclick="submit_form()"
                   >
-                    Send
+                    Enviar
                   </button>
                 </div>
+                <input name="campaign_id" id="campaign_id" type="hidden" value="eb7a36fb-a38e-eea6-2a40-67a1f75fa326" /> <input name="redirect_url" id="redirect_url" type="hidden"  value="http://127.0.0.1:3000/gracias.html" /> <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="1" /> <input name="moduleDir" id="moduleDir" type="hidden" value="Leads" />
               </form>
+
+
+<!-- 
+              <form id="WebToLeadForm" action="https://crm.kbdreams.com/public/index.php?entryPoint=WebToPersonCapture" method="POST" name="WebToLeadForm">
+                <h2>Aldea Uno Waiting List</h2>
+                <p>Submitting this form will create Leads</p>
+                <div class="row">
+                <div class="col"><label>First Name: </label><input name="first_name" id="first_name" type="text" /></div>
+                <div class="col">&nbsp;</div>
+                <div class="clear">&nbsp;</div>
+                </div>
+                <div class="row">
+                <div class="col"><label>Last Name: <span class="required">*</span></label><input name="last_name" id="last_name" type="text" required="" /></div>
+                <div class="col">&nbsp;</div>
+                <div class="clear">&nbsp;</div>
+                </div>
+                <div class="row">
+                <div class="col"><label>Mobile: </label><input name="phone_mobile" id="phone_mobile" type="text" /></div>
+                <div class="col">&nbsp;</div>
+                <div class="clear">&nbsp;</div>
+                </div>
+                <div class="row">
+                <div class="col"><label>Email Address: </label><input name="email1" id="email1" type="email" /></div>
+                <div class="col">&nbsp;</div>
+                <div class="clear">&nbsp;</div>
+                </div>
+                <div class="row">
+                <div class="col"><label>Description: </label><span class="ta_replace"><input name="description" id="description" type="text" /></span></div>
+                <div class="col">&nbsp;</div>
+                <div class="clear">&nbsp;</div>
+                </div>
+                <div class="row center buttons"><input class="button" name="Submit" type="submit" value="Submit" onclick="submit_form();" />
+                <div class="clear">&nbsp;</div>
+                </div>
+                <input name="campaign_id" id="campaign_id" type="hidden" value="eb7a36fb-a38e-eea6-2a40-67a1f75fa326" /> <input name="redirect_url" id="redirect_url" type="hidden" value="http://#" /> <input name="assigned_user_id" id="assigned_user_id" type="hidden" value="1" /> <input name="moduleDir" id="moduleDir" type="hidden" value="Leads" /></form>
+ -->
+
+
+
             </div>
           </div>
         </div>
@@ -4739,7 +4808,7 @@
     <!-- ====== Contact End ====== -->
 
     <!-- ====== Brands Section Start -->
-    <section class="pb-20 dark:bg-dark">
+    <!-- <section class="pb-20 dark:bg-dark">
       <div class="container px-4">
         <div
           class="-mx-4 flex flex-wrap items-center justify-center gap-8 xl:gap-11"
@@ -4806,17 +4875,17 @@
           </a>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- ====== Brands Section End -->
 
     <!-- ====== Footer Section Start -->
     <footer
-      class="wow fadeInUp relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]"
+      class="wow fadeInUp relative z-10 bg-primary pt-20 lg:pt-[100px]"
       data-wow-delay=".15s"
     >
       <div class="container">
         <div class="-mx-4 flex flex-wrap">
-          <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
+          <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-4/12">
             <div class="mb-10 w-full">
               <a
                 href="javascript:void(0)"
@@ -4828,14 +4897,11 @@
                   class="max-w-full"
                 />
               </a>
-              <p class="mb-8 max-w-[270px] text-base text-gray-7">
-                We create digital experiences for brands and companies by using
-                technology.
-              </p>
+
               <div class="-mx-3 flex items-center">
                 <a
                   href="javascript:void(0)"
-                  class="px-3 text-gray-7 hover:text-white"
+                  class="px-3 text-white hover:text-white"
                 >
                   <svg
                     width="22"
@@ -4852,7 +4918,7 @@
                 </a>
                 <a
                   href="javascript:void(0)"
-                  class="px-3 text-gray-7 hover:text-white"
+                  class="px-3 text-white hover:text-white"
                 >
                   <svg
                     width="22"
@@ -4869,7 +4935,7 @@
                 </a>
                 <a
                   href="javascript:void(0)"
-                  class="px-3 text-gray-7 hover:text-white"
+                  class="px-3 text-white hover:text-white"
                 >
                   <svg
                     width="22"
@@ -4892,7 +4958,7 @@
                 </a>
                 <a
                   href="javascript:void(0)"
-                  class="px-3 text-gray-7 hover:text-white"
+                  class="px-3 text-white hover:text-white"
                 >
                   <svg
                     width="22"
@@ -4910,7 +4976,21 @@
               </div>
             </div>
           </div>
-          <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+          <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-4/12">
+            <p class="mb-8  text-2xl text-white">
+              Reduce costos, mejora la comunicación y gestiona pagos desde un
+              solo lugar.
+            </p>
+            
+          </div>
+          <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-4/12">
+            <p class="mb-8  text-xl text-white">
+              Diseñado para comunidades privadas y asociaciones de propietarios
+              </p>
+            </p>
+            </div>
+          </div>
+          <!-- <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
             <div class="mb-10 w-full">
               <h4 class="mb-9 text-lg font-semibold text-white">About Us</h4>
               <ul>
@@ -5067,7 +5147,7 @@
                 </a>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -5077,7 +5157,7 @@
         <div class="container">
           <div class="-mx-4 flex flex-wrap">
             <div class="w-full px-4 md:w-2/3 lg:w-1/2">
-              <div class="my-1">
+              <!-- <div class="my-1">
                 <div
                   class="-mx-3 flex items-center justify-center md:justify-start"
                 >
@@ -5100,19 +5180,19 @@
                     Terms of service
                   </a>
                 </div>
-              </div>
+              </div> -->
             </div>
             <div class="w-full px-4 md:w-1/3 lg:w-1/2">
               <div class="my-1 flex justify-center md:justify-end">
                 <p class="text-base text-gray-7">
-                  Designed and Developed by
+                  Desarrollado por
                   <a
-                    href="https://tailgrids.com"
+                    href="https://kbarcelo.com"
                     rel="nofollow noopner"
                     target="_blank"
                     class="text-gray-1 hover:underline"
                   >
-                    TailGrids and UIdeck
+                    kbarcelo
                   </a>
                 </p>
               </div>
@@ -5121,7 +5201,7 @@
         </div>
       </div>
 
-      <div>
+      <!-- <div>
         <span class="absolute left-0 top-0 z-[-1]">
           <img src="assets/images/footer/shape-1.svg" alt="" />
         </span>
@@ -5385,7 +5465,7 @@
             ></path>
           </svg>
         </span>
-      </div>
+      </div> -->
     </footer>
     <!-- ====== Footer Section End -->
 
@@ -5401,7 +5481,7 @@
     <!-- ====== Back To Top End -->
 
     <!-- ====== Made With Button Start -->
-    <a
+    <!-- <a
       target="_blank"
       rel="nofollow noopener"
       class="fixed bottom-8 left-4 z-[999] inline-flex items-center gap-[10px] rounded-lg bg-white px-[14px] py-2 shadow-2 dark:bg-dark-2 sm:left-9"
@@ -5423,10 +5503,42 @@
           class="hidden dark:block"
         />
       </span>
-    </a>
+    </a> -->
     <!-- ====== Made With Button End -->
 
     <!-- ====== All Scripts -->
+
+    <!--===== SuiteCRM script -->
+
+    <script type="text/javascript">// <![CDATA[
+      function submit_form() {
+          if (typeof(validateCaptchaAndSubmit) != 'undefined') {
+              validateCaptchaAndSubmit();
+          } else {
+              check_webtolead_fields();
+              //document.WebToLeadForm.submit();
+          }
+      }
+  
+      function check_webtolead_fields() {
+          if (document.getElementById('bool_id') != null) {
+              var reqs = document.getElementById('bool_id').value;
+              bools = reqs.substring(0, reqs.lastIndexOf(';'));
+              var bool_fields = new Array();
+              var bool_fields = bools.split(';');
+              nbr_fields = bool_fields.length;
+              for (var i = 0; i < nbr_fields; i++) {
+                  if (document.getElementById(bool_fields[i]).value == 'on') {
+                      document.getElementById(bool_fields[i]).value = 1;
+                  } else {
+                      document.getElementById(bool_fields[i]).value = 0;
+                  }
+              }
+          }
+      }
+  // ]]></script>
+
+  <!-- End SuiteCRM -->
 
     <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
